@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  /* background: linear-gradient(135deg, #404040 0%, #313131 50%, #0a0a0a 100%); */
+   /* background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 25%, #2d2416 50%, #1a1a1a 75%, #0a0a0a 100%); */
+  background-color: black;
+   min-height: 100vh;
+}
+
+
+
+@font-face {
+    font-family: font1;
+    src: url(/fonts/DM-Sans-regular.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(/fonts/Lausanne-300.woff2);
+}
+@font-face {
+    font-family: font3;
+    src: url(/fonts/Lausanne-500.woff2);
+}
+
+@font-face {
+    font-family: elastic;
+    src: url(/fonts/helveticaneue-medium.woff2);
+}
+@font-face {
+    font-family: elastic1;
+    src: url(/fonts/helveticaneue.woff2);
+}

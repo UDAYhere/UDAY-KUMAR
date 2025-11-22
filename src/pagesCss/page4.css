@@ -1,0 +1,143 @@
+.page4-main{
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.title{
+    height: 14vh;
+    background-color: #1c1c1c;
+    font-family: elastic;
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.title b{
+    color: #f1dcb8;
+    font-size: 3.5rem;
+}
+
+.marquee-content{
+    display: flex;
+    animation: marquee 55s linear infinite;
+    padding-right: 2rem;
+}
+
+.marquee-content span{
+    padding: 0 1rem;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.page4-content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+}
+.page4-box1
+{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid red; */
+    font-family: font3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0rem; */
+    line-height: 0.2rem;
+    /* white-space:nowrap; */
+    padding-left: 2rem;
+}
+
+.page4-box2
+{
+    height: 100%;
+    width: 30%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.page4-box1 h1{
+    font-size: 3.9rem;
+}
+.page4-box1 i{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.371);
+    font-family: font2;
+    margin-top: 2rem;
+    
+}
+#gap{
+    margin-top: 6rem;
+}
+.page4-box1 h1 b{
+    color: #f1dcb8;
+    /* font-family: elastic; */
+    
+}
+.page4-box3
+{
+    height: 100%;
+    width: 30%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill-item{
+    margin-bottom: 1rem;
+}
+
+.skill-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.skill-name{
+    font-family: elastic1;
+    font-size: 1.2rem;
+    color: #888888;
+}
+
+.skill-percentage{
+    font-family: elastic;
+    font-size: 1.2rem;
+    color: #888888;
+}
+
+.skill-bar{
+    width: 100%;
+    height: 8px;
+    background: #333333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-progress{
+    height: 100%;
+    background: #f1dcb8;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}

@@ -1,0 +1,105 @@
+.page5-main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.page5-title{
+    font-family: font3;
+    font-size: 7rem;
+    color: white;
+    width: 90%;
+    padding-bottom: 2rem;
+    /* padding-top: 1rem; */
+    padding-left: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.250);
+}
+
+.page5-title b{
+    color: #f1dcb8;
+}
+
+.education{
+    color: white;
+    width: 90%;
+    padding-bottom: 2rem;
+    /* padding-top: 1rem; */
+    padding-left: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.250);
+    font-family: font2;
+     display: flex;
+     padding-top: 4.5rem;
+    
+}
+.job{
+    color: white;
+    width: 90%;
+    padding-bottom: 2rem;
+    /* padding-top: 1rem; */
+    padding-left: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.250);
+    font-family: font2;
+    display: flex;
+    
+}
+.time{
+    width: 4.5rem;
+    padding: 0.8rem;
+    border: 2px solid rgba(255, 255, 255, 0.250);
+    /* background-color: #f1dcb848; */
+    /* font-family: elastic; */
+    font-size: 1.1rem;
+    border-radius:2rem 2rem 2rem 2rem;
+    height: 1.2rem;
+    align-content: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.subject{
+    margin-left:8rem
+}
+.subject img{
+    height: 5rem;
+    width: 5rem;
+}
+.subject b{
+    font-size: 4rem;
+    font-family: elastic;
+    padding-left:1.5rem ;
+    
+}
+.subject p{
+    font-size: 2rem;
+    /* font-family: elastic; */
+    /* padding-left:1.5rem ; */
+    /* text-decoration: underline; */
+    
+}
+#lpu{
+    width: 20rem;
+    /* scale: 1.1; */
+    height: 6rem;
+}
+
+.content p{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.533);
+}
+.content img{
+    width: 1rem;
+    height: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+#mlu{
+    height: 6rem;
+    width: 6rem;
+    scale: 1.1;
+}
+#gndu{
+    font-size: 1rem;
+}

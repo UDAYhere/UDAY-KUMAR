@@ -1,0 +1,194 @@
+.page3-main{
+    /* height: 100vh; */
+    width: 100%;
+    
+
+}
+
+.title{
+    height: 110px;
+    background-color: #1c1c1c;
+    font-family: elastic;
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.title b{
+    color: #f1dcb8;
+    font-size: 3.5rem;
+}
+
+.marquee-content{
+    display: flex;
+    animation: marquee 25s linear infinite;
+    padding-right: 2rem;
+}
+
+.marquee-content span{
+    padding: 0 1rem;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.project-card-main{
+    width: 100%;;
+    height: 600px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: font2;
+}
+.project-card-main1{
+    width: 100%;;
+    height: 450px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: font2;
+}
+
+.project-card {
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.project-card .box1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.168);
+    width: 52%;
+    height: 100%;
+    
+}
+.project-card .box2 {
+    border-left: 1px solid rgba(255, 255, 255, 0.168);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.168);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.project-card .box3 {
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.168); */
+    width: 40%;
+    height: 100%;
+}
+.project-card .box4 {
+    border-left: 1px solid rgba(255, 255, 255, 0.168);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.168); */
+    /* border-right: 1px solid rgba(255, 255, 255, 0.168); */
+    width: 30%;
+    height: 100%;
+}
+
+.box1text{
+    /* font-size:0.8rem; */
+    padding: 2rem;
+    line-height: 0.5;
+}
+
+.box1text h3{
+    font-size: 2rem;
+    /* font-weight: bolder; */
+    font-family: font1  ;
+}
+.box1text h2{
+    font-size: 1.2rem;
+    color: #f1dcb8;
+    /* font-weight: bold; */
+}
+.box1text h4{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.373);
+}
+
+.image{
+    width: 90%;
+    height: 63%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem; 
+    transition: 0.5s ease-in-out;
+    display: block;
+    cursor: pointer;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0rem;
+    transition: scale 0.5s ease-in-out;
+}
+.image img:hover{
+    scale: 1.1;
+}
+
+.box3 .image{
+    height: 50%;
+}
+
+.box4 .image{
+    height: 50%;
+    width:85% ;
+    margin: 0px;
+    margin-left: 2rem;
+}
+
+.box5
+{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.more{
+    height: 100%;
+    width: 100%;
+    background-color: #f1dcb8;
+    border-radius: 20%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: elastic;
+    font-size: 2rem;
+    transition: scale 0.5s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+#moreArrow{
+    font-weight: bolder;
+    font-size: 2.4rem;
+    transition: scale 0.5s ease-in-out;
+}
+
+.more:hover{
+    scale: 1.3;
+    transition: scale 0.5s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
