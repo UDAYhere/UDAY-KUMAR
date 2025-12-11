@@ -6,6 +6,7 @@ body{
    /* background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 25%, #2d2416 50%, #1a1a1a 75%, #0a0a0a 100%); */
   background-color: black;
    min-height: 100vh;
+   overflow-x: hidden;
 }
 
 
